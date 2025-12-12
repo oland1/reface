@@ -8,9 +8,11 @@ import {UsersProvider} from "../entities/users/model/UsersProvider.tsx";
 export const Dashboard = () => {
   return (
     <UsersProvider>
-      <UsersStatistic/>
-      <UsersChart/>
-      <UsersTable/>
+      <div className="p-4 sm:p-6 lg:p-8 bg-gray-50 min-h-screen">
+        <UsersStatistic/>
+        <UsersChart/>
+        <UsersTable/>
+      </div>
     </UsersProvider>
   )
 }

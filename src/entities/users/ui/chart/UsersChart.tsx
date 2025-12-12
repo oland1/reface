@@ -20,8 +20,7 @@ export const UsersChart = () => {
   }
 
   return (
-    <div className="p-6 bg-white shadow-xl rounded-xl mb-8 border border-gray-200">
-
+    <div className="p-6 bg-white shadow-lg rounded-xl mb-8 border border-gray-200">
       <Typography variant="h5" className="text-xl font-semibold mb-6 text-gray-800">
         📈Лінійний графік
       </Typography>
